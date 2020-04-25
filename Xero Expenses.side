@@ -21,18 +21,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "0021faad-dcce-4b93-9b3b-e9a9bb7b9af9",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.xdash-DashboardColumn__column___2aCqm:nth-child(2) > .xdash-shared__container--not-hidden___1gpPl:nth-child(2) .xdash-WidgetHeader__widget-header--anchor-link___1T4Nv",
-      "targets": [
-        ["css=.xdash-DashboardColumn__column___2aCqm:nth-child(2) > .xdash-shared__container--not-hidden___1gpPl:nth-child(2) .xdash-WidgetHeader__widget-header--anchor-link___1T4Nv", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/div/div/div/header/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/Bank/BankTransactions.aspx?accountId=EA5344D0A7F94075A9EA101185981988')]", "xpath:href"],
-        ["xpath=//div[2]/div[2]/div/div/div/header/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "62ce94af-2f7b-4a1f-9d5f-35b284b7dfe8",
       "comment": "",
       "command": "click",
@@ -87,21 +75,10 @@
       ],
       "value": "Mobile Phone Frank Booth"
     }, {
-      "id": "56cc38c0-16e0-4ae5-98bc-c6faba974221",
-      "comment": "",
-      "command": "click",
-      "target": "css=.xui-field-layout:nth-child(4) .xui-textinput",
-      "targets": [
-        ["css=.xui-field-layout:nth-child(4) .xui-textinput", "css:finder"],
-        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[4]/label[2]/div", "xpath:idRelative"],
-        ["xpath=//label[2]/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "4065880b-d9f0-455b-a5d0-0a6a9f83e6ea",
       "comment": "",
       "command": "click",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -114,7 +91,7 @@
       "id": "127f6991-3eef-4b18-b5c7-4184a41c2ba9",
       "comment": "",
       "command": "type",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -138,7 +115,7 @@
       "id": "e037ddc0-5d49-4229-850f-34a3ea5ca592",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-padding-left-small > span",
+      "target": "css=.xui-padding-left-small",
       "targets": [
         ["css=.xui-padding-left-small > span", "css:finder"],
         ["xpath=//button[@id='expense-detail-purchase-date-picker']/span/span", "xpath:idRelative"],
@@ -240,7 +217,7 @@
       "id": "a3472c5e-067a-446a-8471-60d38cba744b",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-margin-left-small:nth-child(2) > span",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
       "targets": [
         ["css=.xui-margin-left-small:nth-child(2) > span", "css:finder"],
         ["xpath=//div[@id='expense-detail-form-buttons']/button[2]/span", "xpath:idRelative"],
@@ -337,7 +314,7 @@
       "id": "e2850e8f-e7d1-4e09-874c-1f36710c8499",
       "comment": "",
       "command": "click",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -350,7 +327,7 @@
       "id": "6d4fb9b1-7d65-420b-930d-2f635ba7aa65",
       "comment": "",
       "command": "type",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -360,6 +337,24 @@
       ],
       "value": "Virgin Media Hook UK"
     }, {
+      "id": "a9581bcc-dd54-4ca8-a818-5c808d288e7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xec-expense-detail-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c71f6cf1-db86-45b4-8bb7-e5e62231cd2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xui-padding-left-small",
+      "targets": [
+        ["css=.xui-padding-left-small > span", "css:finder"],
+        ["xpath=//button[@id='expense-detail-purchase-date-picker']/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "c2d5f019-9155-4ea0-a155-7a9c6558a4ee",
       "comment": "",
       "command": "mouseUp",
@@ -368,17 +363,6 @@
         ["css=#purchase-date-container > .xui-inputwrapper", "css:finder"],
         ["xpath=//div[@id='purchase-date-container']/div", "xpath:idRelative"],
         ["xpath=//div[5]/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c71f6cf1-db86-45b4-8bb7-e5e62231cd2e",
-      "comment": "",
-      "command": "click",
-      "target": "css=.xui-padding-left-small > span",
-      "targets": [
-        ["css=.xui-padding-left-small > span", "css:finder"],
-        ["xpath=//button[@id='expense-detail-purchase-date-picker']/span/span", "xpath:idRelative"],
-        ["xpath=//div[5]/div/div/button/span/span", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -443,7 +427,7 @@
       "id": "6480d64a-0e21-489e-967f-a86a54fa061a",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-button-main > span",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
       "targets": [
         ["css=.xui-button-main > span", "css:finder"],
         ["xpath=//div[@id='expense-detail-form-buttons']/button[3]/span", "xpath:idRelative"],
@@ -552,7 +536,7 @@
       "id": "b44f5134-0840-4611-86d6-b22176ec30d8",
       "comment": "",
       "command": "click",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -565,7 +549,7 @@
       "id": "3694d609-8bd0-48ce-92f5-924cf64a5b03",
       "comment": "",
       "command": "type",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -692,7 +676,7 @@
       "id": "c1a34d26-8c3a-462f-a2a3-e6d9d12cab0f",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-margin-left-small:nth-child(2) > span",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
       "targets": [
         ["css=.xui-margin-left-small:nth-child(2) > span", "css:finder"],
         ["xpath=//div[@id='expense-detail-form-buttons']/button[2]/span", "xpath:idRelative"],
@@ -717,18 +701,6 @@
       "command": "setWindowSize",
       "target": "1338x869",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "51166a56-8cf6-4567-a5fa-a29bdd0917a9",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.xdash-DashboardColumn__column___2aCqm:nth-child(2) > .xdash-shared__container--not-hidden___1gpPl:nth-child(2) .xui-panel--heading .xui-panel--heading",
-      "targets": [
-        ["css=.xdash-DashboardColumn__column___2aCqm:nth-child(2) > .xdash-shared__container--not-hidden___1gpPl:nth-child(2) .xui-panel--heading .xui-panel--heading", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/div/div/div/header/a/h3", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div/header/a/h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Ronin IT Savings')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "93dfce91-2d9b-4d97-b12f-846e449a099a",
@@ -801,7 +773,7 @@
       "id": "d03d84be-6f73-43f8-986a-b9ff8913a275",
       "comment": "",
       "command": "click",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -814,7 +786,7 @@
       "id": "7510dce0-56b0-4efe-87e5-1a7d154f8f2b",
       "comment": "",
       "command": "type",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -941,7 +913,7 @@
       "id": "7d398763-d438-4b5a-af78-a89f33265bbc",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-margin-left-small:nth-child(2) > span",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
       "targets": [
         ["css=.xui-margin-left-small:nth-child(2) > span", "css:finder"],
         ["xpath=//div[@id='expense-detail-form-buttons']/button[2]/span", "xpath:idRelative"],
@@ -966,18 +938,6 @@
       "command": "setWindowSize",
       "target": "1338x869",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "f57c378a-90d3-423b-beed-ec5d9768e012",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.xdash-DashboardColumn__column___2aCqm:nth-child(2) > .xdash-shared__container--not-hidden___1gpPl:nth-child(2) .xdash-WidgetHeader__widget-header--anchor-link___1T4Nv",
-      "targets": [
-        ["css=.xdash-DashboardColumn__column___2aCqm:nth-child(2) > .xdash-shared__container--not-hidden___1gpPl:nth-child(2) .xdash-WidgetHeader__widget-header--anchor-link___1T4Nv", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/div/div/div/header/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/Bank/BankTransactions.aspx?accountId=EA5344D0A7F94075A9EA101185981988')]", "xpath:href"],
-        ["xpath=//div[2]/div[2]/div/div/div/header/a", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "7c0710c9-ef7a-49b6-a904-5583d48239e2",
@@ -1034,21 +994,10 @@
       ],
       "value": "Mobile Phone Heather Booth"
     }, {
-      "id": "15548e06-bb3b-498a-a3a3-3f6a99035293",
-      "comment": "",
-      "command": "click",
-      "target": "css=.xui-field-layout:nth-child(4) .xui-textinput",
-      "targets": [
-        ["css=.xui-field-layout:nth-child(4) .xui-textinput", "css:finder"],
-        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[4]/label[2]/div", "xpath:idRelative"],
-        ["xpath=//label[2]/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "345afff9-f1f9-42ea-8e4f-dff41d7a18a8",
       "comment": "",
       "command": "click",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -1061,7 +1010,7 @@
       "id": "01782535-207e-4174-af74-953f15e6f37b",
       "comment": "",
       "command": "type",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -1085,7 +1034,7 @@
       "id": "c6377d9b-8f21-474f-ad61-8bf3ef52a886",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-padding-left-small > span",
+      "target": "css=.xui-padding-left-small",
       "targets": [
         ["css=.xui-padding-left-small > span", "css:finder"],
         ["xpath=//button[@id='expense-detail-purchase-date-picker']/span/span", "xpath:idRelative"],
@@ -1187,7 +1136,7 @@
       "id": "7f4657f0-1ece-4d49-8851-99118932d13a",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-margin-left-small:nth-child(2) > span",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
       "targets": [
         ["css=.xui-margin-left-small:nth-child(2) > span", "css:finder"],
         ["xpath=//div[@id='expense-detail-form-buttons']/button[2]/span", "xpath:idRelative"],
@@ -1226,18 +1175,6 @@
         ["xpath=//a[contains(@href, 'https://expenses.xero.com/!N-GNF/detail/create-new')]", "xpath:href"],
         ["xpath=//div[3]/div/div/div[2]/a", "xpath:position"],
         ["xpath=//a[contains(.,'New claim')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "db620cc0-49ba-4d28-be23-1d6f0cc7c87e",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.xdash-shared__container--not-hidden___1gpPl:nth-child(3) .xui-panel--heading .xui-panel--heading",
-      "targets": [
-        ["css=.xdash-shared__container--not-hidden___1gpPl:nth-child(3) .xui-panel--heading .xui-panel--heading", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/div[2]/div[3]/div/div/div/header/a/h3", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div/header/a/h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Expense claims')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1293,23 +1230,10 @@
       ],
       "value": "Mileage (to and from Chelmsford Station)"
     }, {
-      "id": "afe266b5-40ea-47ab-bf7a-3a15c8886010",
-      "comment": "",
-      "command": "click",
-      "target": "id=vendor-input",
-      "targets": [
-        ["id=vendor-input", "id"],
-        ["css=#vendor-input", "css:finder"],
-        ["xpath=//input[@id='vendor-input']", "xpath:attributes"],
-        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[4]/label[2]/div/input", "xpath:idRelative"],
-        ["xpath=//label[2]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "77ebd06f-5a65-4c2d-959c-959e332073c9",
       "comment": "",
       "command": "click",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -1322,7 +1246,7 @@
       "id": "c948ed89-d544-449b-9b51-4ef5c2f493ad",
       "comment": "",
       "command": "type",
-      "target": "id=vendor-input",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
       "targets": [
         ["id=vendor-input", "id"],
         ["css=#vendor-input", "css:finder"],
@@ -1335,7 +1259,7 @@
       "id": "86f9e3cf-47da-460b-82b2-f67853d868c2",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-padding-left-small > span",
+      "target": "css=.xui-padding-left-small",
       "targets": [
         ["css=.xui-padding-left-small > span", "css:finder"],
         ["xpath=//button[@id='expense-detail-purchase-date-picker']/span/span", "xpath:idRelative"],
@@ -1415,12 +1339,204 @@
       "id": "4fe4e5b5-72c9-40f1-94b0-c927763ba6a0",
       "comment": "",
       "command": "click",
-      "target": "css=.xui-margin-left-small:nth-child(2) > span",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
       "targets": [
         ["css=.xui-margin-left-small:nth-child(2) > span", "css:finder"],
         ["xpath=//div[@id='expense-detail-form-buttons']/button[2]/span", "xpath:idRelative"],
         ["xpath=//button[2]/span", "xpath:position"],
         ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bcb44d5d-712e-494a-8fa8-32987176b5f6",
+    "name": "Audible Subscription",
+    "commands": [{
+      "id": "f3e789ee-4bed-4bbd-89c3-90e551a89edf",
+      "comment": "",
+      "command": "open",
+      "target": "/Dashboard/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37b1b16d-f9d6-42f1-93bc-7b56be9e43f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1338x869",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2abe93c8-64fd-4e3b-a68d-a50ea132817b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New claim",
+      "targets": [
+        ["linkText=New claim", "linkText"],
+        ["css=.xui-u-spacebetween > .xui-button", "css:finder"],
+        ["xpath=//a[contains(text(),'New claim')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://expenses.xero.com/!N-GNF/detail/create-new')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New claim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d2b5a8a-1754-4c7f-8bad-60bd937e2faa",
+      "comment": "",
+      "command": "click",
+      "target": "id=expense-detail-subtotal",
+      "targets": [
+        ["id=expense-detail-subtotal", "id"],
+        ["css=#expense-detail-subtotal", "css:finder"],
+        ["xpath=//input[@id='expense-detail-subtotal']", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e56043-ff6e-48a9-a4b7-ce96d2a6f8b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=expense-detail-subtotal",
+      "targets": [
+        ["id=expense-detail-subtotal", "id"],
+        ["css=#expense-detail-subtotal", "css:finder"],
+        ["xpath=//input[@id='expense-detail-subtotal']", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "7.99"
+    }, {
+      "id": "fc659aab-4334-4d4f-995a-58b929ea9a8d",
+      "comment": "",
+      "command": "click",
+      "target": "id=description-input",
+      "targets": [
+        ["id=description-input", "id"],
+        ["css=#description-input", "css:finder"],
+        ["xpath=//textarea[@id='description-input']", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[3]/label/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a796d8-c67d-4718-a4b7-43c6f41d6a2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=description-input",
+      "targets": [
+        ["id=description-input", "id"],
+        ["css=#description-input", "css:finder"],
+        ["xpath=//textarea[@id='description-input']", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[3]/label/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Amazon Kindle Subscription"
+    }, {
+      "id": "0a8de6e6-a43b-49c4-b055-b4edf1ada441",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
+      "targets": [
+        ["id=vendor-input", "id"],
+        ["css=#vendor-input", "css:finder"],
+        ["xpath=//input[@id='vendor-input']", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[4]/label[2]/div/input", "xpath:idRelative"],
+        ["xpath=//label[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f6d4969-e8d7-469f-96c2-f61de0f5801d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@data-automationid='spent-at-text--input']",
+      "targets": [
+        ["id=vendor-input", "id"],
+        ["css=#vendor-input", "css:finder"],
+        ["xpath=//input[@id='vendor-input']", "xpath:attributes"],
+        ["xpath=//main[@id='app']/div/div/div/div[2]/div/div[4]/label[2]/div/input", "xpath:idRelative"],
+        ["xpath=//label[2]/div/input", "xpath:position"]
+      ],
+      "value": "Audible Subscription"
+    }, {
+      "id": "c4caa6ef-5e23-48e7-b697-d07a952bf830",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xui-padding-left-small",
+      "targets": [
+        ["css=.xui-padding-left-small > span", "css:finder"],
+        ["xpath=//button[@id='expense-detail-purchase-date-picker']/span/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fe2e6b-205b-485b-8846-548fe376b611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xui-datepicker--arrow-icon:nth-child(1) > .xui-iconwrapper",
+      "targets": [
+        ["css=.xui-datepicker--arrow-icon:nth-child(1) > .xui-iconwrapper", "css:finder"],
+        ["xpath=//div[@id='b7929dde-e9ee-4ce5-8009-268b87ab0483']/div[2]/div/div/div/div/div/header/button/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/header/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0701a347-cbc8-4890-9a05-f9d5a309eb0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xui-datepicker--arrow-icon:nth-child(1) > .xui-iconwrapper",
+      "targets": [
+        ["css=.xui-datepicker--arrow-icon:nth-child(1) > .xui-iconwrapper", "css:finder"],
+        ["xpath=//div[@id='b7929dde-e9ee-4ce5-8009-268b87ab0483']/div[2]/div/div/div/div/div/header/button/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/header/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d34abbe1-edb9-491c-9b95-de13eb710292",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xui-datepicker--week:nth-child(1) > .xui-datepicker--day:nth-child(6)",
+      "targets": [
+        ["css=.xui-datepicker--week:nth-child(1) > .xui-datepicker--day:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='b7929dde-e9ee-4ce5-8009-268b87ab0483']/div[2]/div/div/div/div/div/div/div/div[2]/div/div[7]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/div/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "384af276-12fd-4d20-a9eb-f431d8ba5357",
+      "comment": "",
+      "command": "type",
+      "target": "id=expense-categories--input-0",
+      "targets": [
+        ["id=expense-categories--input-0", "id"],
+        ["css=#expense-categories--input-0", "css:finder"],
+        ["xpath=//input[@id='expense-categories--input-0']", "xpath:attributes"],
+        ["xpath=//div[@id='eui-autocompleter-expense-categories-0']/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/label/div/input", "xpath:position"]
+      ],
+      "value": "485 - Subscriptions"
+    }, {
+      "id": "2acbff32-2017-41d6-b47b-e45ded0dc1b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xui-pickitem--text",
+      "targets": [
+        ["css=.xui-pickitem--text", "css:finder"],
+        ["xpath=//li[@id='6a3f27a3-68d7-4cdc-bacb-f91a0b40473a']/button/span", "xpath:idRelative"],
+        ["xpath=//li/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'489 - Telephone & Internet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb463866-22ea-4515-aa99-c170e6ba8d60",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@class='xui-button xui-margin-left-small xui-u-flex-none xui-button-standard xui-button-small'][2]",
+      "targets": [
+        ["css=.xui-button-main > span", "css:finder"],
+        ["xpath=//div[@id='expense-detail-form-buttons']/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Approve')]", "xpath:innerText"]
       ],
       "value": ""
     }]
