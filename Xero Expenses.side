@@ -8,7 +8,7 @@
     "name": "Frank Mobile Phone",
     "commands": [{
       "id": "a85a56df-c80a-43c5-b258-e0a86da7a211",
-      "comment": "",
+      "comment": "1st of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
@@ -231,7 +231,7 @@
     "name": "Broadband",
     "commands": [{
       "id": "cfd1d669-2c57-4de4-be59-5e35a58249e1",
-      "comment": "",
+      "comment": "1st of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
@@ -441,7 +441,7 @@
     "name": "Laptop Service Agreement",
     "commands": [{
       "id": "c0102982-ef84-49d8-9606-e2ed0defc584",
-      "comment": "",
+      "comment": "27th of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
@@ -690,7 +690,7 @@
     "name": "PC Service Agreement",
     "commands": [{
       "id": "491ac5b6-ab40-4aca-b5db-fe5d6ef3f3ae",
-      "comment": "",
+      "comment": "1st of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
@@ -927,7 +927,7 @@
     "name": "Heather's Mobile Phone",
     "commands": [{
       "id": "58d62e7f-a9c2-425e-86e4-9da98588afa0",
-      "comment": "",
+      "comment": "1st of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
@@ -1150,7 +1150,7 @@
     "name": "Mileage",
     "commands": [{
       "id": "1a140e94-3849-45a1-a38d-97c497526ea9",
-      "comment": "",
+      "comment": "27th of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
@@ -1353,7 +1353,7 @@
     "name": "Audible Subscription",
     "commands": [{
       "id": "f3e789ee-4bed-4bbd-89c3-90e551a89edf",
-      "comment": "",
+      "comment": "6th of the month",
       "command": "open",
       "target": "/Dashboard/",
       "targets": [],
